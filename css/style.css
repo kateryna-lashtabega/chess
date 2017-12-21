@@ -8,25 +8,23 @@ body{
 	margin: 100px auto 0;
 	width: 70%;
 	height: 80vh;
-	-webkit-transform: rotateX(-4deg) rotateZ(6deg) translateX(5px) translateY(5px) translateZ(1px) skewX(-8deg) skewY(1deg);
--moz-transform: rotateX(-4deg) rotateZ(6deg) translateX(5px) translateY(5px) translateZ(1px) skewX(-8deg) skewY(1deg);
--ms-transform: rotateX(-4deg) rotateZ(6deg) translateX(5px) translateY(5px) translateZ(1px) skewX(-8deg) skewY(1deg);
--o-transform: rotateX(-4deg) rotateZ(6deg) translateX(5px) translateY(5px) translateZ(1px) skewX(-8deg) skewY(1deg);
-transform: rotateX(-4deg) rotateZ(6deg) translateX(5px) translateY(5px) translateZ(1px) skewX(-8deg) skewY(1deg);
-
+	transform: scale(0.84,1) rotate(28deg)skew(-35deg,-18deg) translate(0,0); 
+	-webkit-transform: scale(0.84,1) rotate(28deg)skew(-35deg,-18deg) translate(0,0); 
+	-moz-transform: scale(0.84,1) rotate(28deg)skew(-35deg,-18deg) translate(0,0); 
+	transform-origin: 85% 68%;  
 }
 
 .chess {
- background-color: #272822;
+ background-color: #764B3C;
  position: absolute;
  border-radius: 50%;
   width: 90px;
  height: 90px;
-/* box-shadow: inset rgba(0,0,0,0.5);*/
+box-shadow: inset 6px -6px 10px 2px;
 }
 
 .red {
-	background-color: red;
+	background-color: #C55050;
 }
 
 .black1 {
