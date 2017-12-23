@@ -3,11 +3,13 @@ body{
 }
 
 .main-block {
-	b
+	width: 720px;
+	height: 720px;
+	background-image: url(../img/chess.png);
+	margin-left: 170px;
+
 	position: relative;
-	margin: 100px auto 0;
-	width: 70%;
-	height: 80vh;
+	
 	transform: scale(0.84,1) rotate(28deg)skew(-35deg,-18deg) translate(0,0); 
 	-webkit-transform: scale(0.84,1) rotate(28deg)skew(-35deg,-18deg) translate(0,0); 
 	-moz-transform: scale(0.84,1) rotate(28deg)skew(-35deg,-18deg) translate(0,0); 
